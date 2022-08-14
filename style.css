@@ -160,9 +160,15 @@ a {
     padding: 0px 100px;
 }
 
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
 .callbox {
     display: flex;
-    flex-grow: 1;
     align-items: center;
     justify-content: space-between;
     margin: 120px;
@@ -170,6 +176,7 @@ a {
     border-radius: 4px;
     padding: 24px;
     width: 420px;
+    flex-grow: 0;
 }
 
 .callL {
