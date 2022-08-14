@@ -56,14 +56,12 @@ a {
     font-weight: bold;
     color: white;
     text-wrap: wrap;
-    flex-grow: 1;
 }
 
 .b1body {
     font-size: small;
     text-wrap: wrap;
     color: grey;
-    flex-grow: 1;
 }
 
 .button1 {
@@ -80,7 +78,7 @@ a {
     display: flex;
     width:280px;
     height: 120px;
-    background-color: lightgrey;
+    background-color: darkgray;
     justify-content: center;
     align-items: center;
     font-size: 8px;
@@ -92,6 +90,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .randomtitle {
@@ -127,4 +126,30 @@ a {
     text-wrap: wrap;
     width: 120px;
     text-align: center;
+    margin-bottom: 24px;
+}
+
+.quotesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+    flex-grow: 2;
+    padding: 24px;
+}
+
+.quotetext {
+    font-size: 18px;
+    padding-top: 48px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.quoted {
+    font-weight: bold;
+    align-items: center;
+    text-align: right;
+    padding: 0px 100px;
 }
