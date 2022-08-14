@@ -142,6 +142,7 @@ a {
 
 .quotebox {
     max-width: 1580px;
+    margin: auto;
 }
 
 .quotetext {
