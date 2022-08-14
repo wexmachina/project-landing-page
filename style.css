@@ -140,6 +140,10 @@ a {
     padding: 24px;
 }
 
+.quotebox {
+    max-width: 1580px;
+}
+
 .quotetext {
     font-size: 18px;
     padding-top: 48px;
